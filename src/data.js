@@ -9,11 +9,19 @@ export const portfolioData = {
   experience: [
     {
       id: 1,
+      period: "9/2024 - 6/2025",
+      company: "Jagu s.r.o",
+      role: "Frontend Developer",
+      description: "Návrh frontendové části eshopu pro reklamace a vratky, práce v týmu.",
+      technologies: ["Vue.js", "CI/CD", "REST API", "Vuetify"]
+    },
+    {
+      id: 2,
       period: "5/2025 - 6/2026",
-      company: "ServerZone, s.r.o.",
+      company: "ServerZone s.r.o.",
       role: "Fullstack Developer",
       description: "Tvorba REST API systémů převážně v jazyce PHP, návrh databázových schémat, řešení problému vyhledávání chráněného obsahu v audiovizuálních materiálech, práce na unixových systémech.",
-      technologies: ["PHP", "Content Id", "REST API", "SQL", "Unix", "RabbitMQ", "docker", "git", "lxc"]
+      technologies: ["PHP", "Content Id", "REST API", "SQL", "Unix", "RabbitMQ", "docker", "git", "CI/CD", "lxc"]
     }
   ],
   education: [
@@ -46,7 +54,7 @@ export const portfolioData = {
       id: 1,
       title: "Bandportal.cz",
       description: "Kompletní platforma pro hudebníky a umělce, pro pořádání akcí. Jako technologický stack jsem zvolil kombinaci frameworků Ktor (Kotlin) + React (Type Script). Pro data byla zvolena databáze PostgreSQL.",
-      technologies: ["React", "Kotlin", "Ktor", "Type Script", "Docker", "REST API", "OAuth", "UX"],
+      technologies: ["React", "Kotlin", "Ktor", "Type Script", "Docker", "REST API", "OAuth", "UX", "CI/CD"],
       image: "/project1.png",
       link: "https://bandportal.cz/"
     },
@@ -73,7 +81,7 @@ export const portfolioData = {
   services: [
     {
       id: 1,
-      title: "Webový Vývoj",
+      title: "Webový vývoj",
       description: "Tvorba moderních, rychlých a responzivních webových aplikací na míru, od návrhu REST API a databáze až po vyladěný frontend."
     },
     {
